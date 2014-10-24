@@ -1,30 +1,47 @@
 {
-  "name":"subdomain",
-  "author":"Edward Hotchkiss <edward@edwardhotchkiss.com>",
-  "contributors":[
-    { "name": "Edward Hotchkiss", "email": "edward@edwardhotchkiss.com" },
-    { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" },
-    { "name": "Jed Dawson", "github": "jeddawson" }
+  "name": "subdomain",
+  "author": "Edward Hotchkiss <edward@edwardhotchkiss.com>",
+  "contributors": [
+    {
+      "name": "Edward Hotchkiss",
+      "email": "edward@edwardhotchkiss.com"
+    },
+    {
+      "name": "Kevin Sakhuja",
+      "email": "kevin.sakhuja@gmail.com"
+    },
+    {
+      "name": "Jed Dawson",
+      "github": "jeddawson"
+    }
   ],
   "homepage": "http://github.com/edwardhotchkiss/subdomain",
-  "description":"Node.js Express Subdomain Middleware.",
-  "version":"1.2.0",
-  "repository":{
-    "type":"git",
-    "url":"git://github.com/edwardhotchkiss/subdomain.git"
+  "description": "Node.js Express Subdomain Middleware.",
+  "version": "1.2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edwardhotchkiss/subdomain.git"
   },
-  "keywords":["express","subdomain","middleware","domain"],
-  "main":"./lib/subdomain",
-  "engines":{
-    "node":">= 0.10.x"
+  "keywords": [
+    "express",
+    "subdomain",
+    "middleware",
+    "domain"
+  ],
+  "main": "./lib/subdomain",
+  "engines": {
+    "node": ">= 0.10.x"
   },
-  "dependencies":{
+  "dependencies": {
+    "express": "^4.10.0"
   },
-  "bugs":{
-    "url":"https://github.com/edwardhotchkiss/subdomain/issues"
+  "bugs": {
+    "url": "https://github.com/edwardhotchkiss/subdomain/issues"
   },
-  "licenses":[{
-    "type":"MIT",
-    "url":"http://github.com/edwardhotchkiss/subdomain/LICENSE"
-  }]
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/edwardhotchkiss/subdomain/LICENSE"
+    }
+  ]
 }

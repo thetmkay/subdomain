@@ -14,7 +14,7 @@ var app
 
 app = express();
 
-app.use(subdomain({ base : 'localhost', removeWWW : true }));
+app.use(subdomain({ base : 'localhost', removeWWW : true, domains:['resume'] }));
 
 app.get('/subdomain/blog/', function(request, response) {
   response.end('BLOG.LOCALHOST: "/"');
@@ -28,6 +28,6 @@ app.get('/hello', function(request, response) {
   response.end('LOCALHOST: "/hello"');
 });
 
-app.listen(8000, function() {
+app.listen(3000, function() {
   console.log('> listening on port 8000');
 });
